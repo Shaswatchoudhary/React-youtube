@@ -1,6 +1,24 @@
-.box{
-  margin:18px;
-  border:2px solid black;
-  padding:2px;
-  border-radius:8px;
+.box {
+  margin: 18px;
+  border: 2px solid black;
+  padding: 8px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttonContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 8px 0;
+}
+
+.buyButton {
+  padding: 8px 24px;
+  border-radius: 4px;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: all 0.2s ease;
 }

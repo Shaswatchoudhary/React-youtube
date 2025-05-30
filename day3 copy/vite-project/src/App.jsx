@@ -5,6 +5,8 @@ import Container from './component/container'
 import Getdata from './component/getdata'
 let Items=["Oil","Sugar","Salt","books","pen","pencil","notebook","eraser"]
 //let Items = []
+
+let textshow="Item Enter by User"
 function App(){
 
   function Alertt(){
@@ -21,8 +23,8 @@ return (
 
 <Empty item={Items}/>
 <input onChange={(event)=> console.log(event.target.value)  }
-
 type="text" placeholder="Search items"></input>
+<p>{"user last enter is + " + textshow}</p>          
 <Shopitem item={Items} />
 <Getdata data={Alertt} />
 

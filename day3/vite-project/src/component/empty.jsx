@@ -1,8 +1,9 @@
 
 
-function Empty({item}){
+function Empty(){
 return <>
 
-{item.length === 0 ? <h3>Shop is closed</h3> : null} </>
+{/* {item.length === 0 ? <h3></h3> : null} </> */}
+</>
 }
 export default Empty

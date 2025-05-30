@@ -8,7 +8,7 @@ const Getdata = ({data}) => {
         onClick={data} 
         className={`${style.buyButton} btn btn-info`}
       >
-        Buy
+      Confirm
       </button>
     </div>
   )
