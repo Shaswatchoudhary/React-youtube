@@ -1,5 +1,5 @@
 import { CONTACT } from "../constants"
-import { motion } from "framer-motion"
+import { motion, MotionConfig } from "framer-motion"
 
 const Contact = () => {
     // Animation variants
